@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+      <title>faça sua Reserve online</title>
+
+      <link rel="stylesheet" href="chale.css">
+      <script src="chale.js"></script>
+</head>
+
+<body>
+  <article class="formulario1">
+    <section id="reserva">
+        <h2>Faça sua Reserva</h2>
+        <form id="formReserva" onsubmit="return validarFormulario()">
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="checkin">Data de Check-in:</label>
+          <input type="date" id="checkin" name="checkin" required>
+      
+          <label for="checkout">Data de Check-out:</label>
+          <input type="date" id="checkout" name="checkout" required>
+      
+          <label for="hospedes">Número de Hóspedes:</label>
+          <input type="number" id="hospedes" name="hospedes" min="1" max="10" required>
+      
+          <label for="quarto">Tipo de Quarto:</label>
+          <select id="quarto" name="quarto" required>
+            <option value="standard">Standard</option>
+            <option value="luxo">Luxo</option>
+            <option value="suite">Suíte</option>
+          </select>
+      
+          <button type="submit">Enviar Reserva</button>
+        </form>
+      </section>
+      
+  </article>
+</body>
+
+</html>

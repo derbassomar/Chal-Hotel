@@ -1,0 +1,232 @@
+:root {
+    --color-1: #e3dab6;
+    --color-2: #a27e43;
+    --color-3: #bb9d6b;
+    --color-4: #000000; 
+    --color-5: #ffffff; 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5DC; 
+}
+img[alt=logo]{
+    position: absolute;
+    top: 0;
+    display: flex;
+   justify-content: space-between;
+}
+
+.texto1{
+    position: absolute;
+    right: 20%;
+    margin-left: 10px;
+    top: 0;
+    display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+}  
+
+.navegar{
+    position: absolute;
+    right: 35%;
+    margin-left: 10px;
+    top: 2%;
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 5px;
+   gap: 3px;
+}
+
+a{
+    font-size: 10px;
+    padding: 1em;
+    font-weight: 5000;
+    background: var(--color-2);
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  img[alt= depoimento]{
+    position: absolute;
+    left:70% ;
+    margin-left: 10px;
+    top: 2%;
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 5px;
+   align-items: center;
+   
+  }
+.BTN1{
+    position: absolute;
+    left:85% ;
+    margin-left: 10px;
+    top: 28%;
+    display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 5px;
+   align-items: center;
+   
+   color: var(--color-4);
+   background-color: var(--color-3);
+   border: none;
+  border-radius: .6rem
+}
+
+
+.fundo-bege {
+  background-color: #F5F5DC; 
+  padding: 20px;
+  text-align: center;
+}
+
+.fundo-bege h1 {
+  color: #333; 
+  font-size: 36px;
+}
+
+.fundo-bege p {
+  color: #666; 
+  font-size: 18px;
+  text-wrap: balance;
+}
+
+.coluna2{
+   
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: var(--color-1);
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coluna {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+    
+  }
+  
+  .coluna:last-child {
+    border-right: none;
+  }
+  
+  .coluna h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .coluna p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-wrap: balance;
+  }
+  
+  .coluna img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .mapa{
+    text-align: center;
+    padding: 80px; 
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+  
+
+  .local{
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+  
+
+  .texto-mapa{
+    background: linear-gradient(72deg, #e3dab6 1%, #a27e43 50%, #bb9d6b 99%);
+    background-clip: text;
+    color: transparent;
+    
+  }
+
+
+
+
+  #reserva {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    background-image: url(imagens-chale/fundo\ formulario2.png);
+  }
+  
+  
+  #reserva h2 {
+    text-align: center;
+    color: var(--color-5)
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+  } 
+  
+  input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: deepskyblue;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+  }
+  
+  
+  button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+
